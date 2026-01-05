@@ -21,13 +21,10 @@
 header{
     padding: 20px;
     background-color: #063d1eda;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 200px;
+    
 }
 nav>a{
+   width: 100%;
     padding: 12px;
     font-size: 18px;
     color: white;
@@ -43,7 +40,9 @@ header>h1{
     font-family: var(--fonte-android);
 }
 
-
+.infinix{
+    width: 100%;
+}
 
 
 
@@ -63,7 +62,7 @@ body{
     margin: auto;
 }
 main{
-    min-width: 320px;
+    min-width: 250px;
     max-width: 815px;
     background-color: white;
     margin: auto;
